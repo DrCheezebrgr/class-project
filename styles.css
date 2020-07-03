@@ -1,9 +1,11 @@
+/* H1, add padding */
 .mainTitle {
     color: rgb(255, 0, 0);
     font-size: 350%;
     text-align: center;
+    padding: 50px;
   }
-
+/* small headers for paragraphs */
 .colHead1 {
     color: rgb(148, 3, 3);
     font-size: 250%;
@@ -22,3 +24,7 @@
   margin: 10px;
 }
 
+.mainFooter {
+  text-align: center;
+
+}
