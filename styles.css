@@ -1,19 +1,24 @@
 .mainTitle {
     color: rgb(255, 0, 0);
     font-size: 350%;
+    text-align: center;
   }
 
 .colHead1 {
     color: rgb(148, 3, 3);
     font-size: 250%;
-}
+    margin: 10px;
+  }
 
 .colHead2 {
   color: rgb(212, 121, 151);
   font-size: 250%;
+  margin: 10px;
 }
 
 .colHead3 {
   color: rgb(175, 132, 152);
   font-size: 250%;
+  margin: 10px;
 }
+
