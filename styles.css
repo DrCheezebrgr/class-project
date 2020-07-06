@@ -5,27 +5,10 @@
     text-align: center;
     padding: 50px;
   }
-/* small headers for paragraphs */
-.colHead1 {
-    color: rgb(148, 3, 3);
-    font-size: 250%;
-    margin: 10px;
-  }
-
-.colHead2 {
-  color: rgb(212, 121, 151);
-  font-size: 250%;
-  margin: 10px;
-}
-
-.colHead3 {
-  color: rgb(175, 132, 152);
-  font-size: 250%;
-  margin: 10px;
-}
 
 html, body {
   height: 100%;
+  background-color: wheat;
 }
 body {
   display: flex;
@@ -37,4 +20,26 @@ body {
 .mainFooter {
   flex-shrink: 0;
   text-align: center;
+}
+/* small headers for paragraphs */
+.colHead1 {
+  color: rgb(148, 3, 3);
+  font-size: 250%;
+  padding: 20px;
+}
+
+.colHead2 {
+color: rgb(212, 121, 151);
+font-size: 250%;
+padding: 20px;
+}
+
+.colHead3 {
+color: rgb(175, 132, 152);
+font-size: 250%;
+padding: 20px;
+}
+
+.paraText {
+  padding: 20px;
 }
