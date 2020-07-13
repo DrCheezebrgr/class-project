@@ -6,10 +6,11 @@ of ipsums related to bacon .
 
 ---
 ## What's under the hood?
-For my project I decided to use an interactive image carousel, some Bootstrap  
-to ensure a mobile first design, and a form if you would like to sign up for a   
-newsletter about Bacon events around the country. I even worked in a sticky  
-footer for the copyright!
+1) An iteractive image carousel.  
+2) Some Bootstrap to ensure a mobile first design, that also enabled a flexbox  
+to arrange the columns for normal screen size break points.  
+3) A form if you would like to sign up for a newsletter.  
+4) I even worked in a sticky footer for the copyright!
 
 ---
 The project is very simple (K.I.S.S.), and as such should run without  
