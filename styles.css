@@ -130,3 +130,7 @@ padding: 20px;
 .demo:hover {
   opacity: 1;
 }
+
+.newsletterForm {
+  text-align: center;
+}
