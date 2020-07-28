@@ -13,7 +13,6 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  align-content: center;
 }
 .content {
   flex: 1 0 auto;
@@ -134,11 +133,11 @@ body {
 .demo:hover {
   opacity: 1;
 }
-
+/*newsletter sign up*/
 .newsletterForm {
   text-align: center;
 }
-
+/*name input*/
 input[type=text]{
   -webkit-appearance: none;
   appearance: none;
@@ -152,7 +151,7 @@ input[type=text]{
 
   box-sizing: border-box;
 }
-
+/*email input*/
 input[type=email]{
   -webkit-appearance: none;
   appearance: none;
@@ -167,7 +166,7 @@ input[type=email]{
   box-sizing: border-box;
 }
 
-/* This is our style for the invalid fields */
+/*invalid fields style*/
 input:invalid{
   border-color: #900;
   background-color: #FDD;
@@ -177,7 +176,7 @@ input:focus:invalid {
   outline: none;
 }
 
-/* This is the style of our error messages */
+/* error style */
 .error {
   width  : 100%;
   padding: 0;
