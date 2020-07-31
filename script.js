@@ -28,11 +28,12 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
-
+// email validation
 var email = document.getElementById('mail');
 var errorMessage = document.getElementById('errorMessage');
 var subButton = document.getElementById('subButton');
 
+// shows that email isn't valid
 email.addEventListener('input', function (event) {
 
   if (email.validity.valid) {
@@ -43,6 +44,7 @@ email.addEventListener('input', function (event) {
   }
 });
 
+//prevents incomplete email submission
 subButton.addEventListener('click', function (event) {
   // if the email valid
 
