@@ -15,6 +15,3 @@ to arrange the columns for normal screen size break points.
 ---
 The project is very simple (K.I.S.S.), and as such should run without  
 any outside materials needed beyond a browser.  
-
-I am currently learning to break the gutters on my bootstrap, so that  
-it doesn't hug the left side when it is viewed on mobile screens.
